@@ -1,0 +1,239 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    /*background-image: url(Images/bulleJaune.svg);*/
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* à propos */
+.row{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 2em, 1em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2em, 1em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.column{
+    width: 100%;
+    padding: 0.5em 0.5em;
+    margin: 1em 0.2em;
+}
+
+.column p{
+    text-align: justify;
+    padding-left: 2rem;
+}
+
+.column h3{
+    padding-left: 2rem;
+}
+
+.card{
+    box-shadow: 0 0 2.2em #e8e1e1;
+    padding: 3em 1em;
+    border-radius: 0.6em;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: right;
+}
+
+.card .img-container{
+    width: 50%;
+    height: 50%;
+    background-color: #bef3f4;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 1em auto 2em 1em;
+    align-items: center;
+}
+
+.card .description{
+   text-align: left;
+   /*padding: 1em;*/
+}
+
+.card .information p{
+   text-align: left;
+   /*padding: 1em;*/
+}
+
+.card img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.card h3{
+    font-weight: 600;
+}
+
+.card p{
+    font-weight: 300;
+    padding-right: 1rem;
+    /*text-transform: uppercase;
+    margin: 0.1em 0 2em 0;*/
+}
+
+.card:hover{
+    background: linear-gradient(#413bef, #ebcaca);
+    color: #fff;
+}
+
+.card:hover .img-container{
+    transform: scale(1.1);
+}
+
+
+/*----------------*/
+
+.content{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.content h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.content h3{
+    font-size: 1.5rem;
+}
+
+.informations h3{
+    font-size: 1.5rem;
+}
+
+.informations{
+    width: 100%;
+}
+
+.informations p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+.informations ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.informations ul li a:hover{
+    text-decoration:underline;
+}
+
+.content p{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.titre{
+    display: flex;
+    margin-top: -1em;
+    margin-bottom: 2rem;;
+}
+
+.icone{
+    padding-left: 20px;
+    padding-top: -50px;
+    width: 100px;
+    height: 100px;
+    align-items: right;
+}
+
+.img-coming{
+    text-align: center;
+}
+
+.img-coming img{
+    width: 100px;
+    height: 100px;
+}
+
+.icone-apropos{
+    display: flex;
+}
+
+.icone-apropos img{
+    padding-left: 200px;
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.tradition{
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: auto auto;
+    background-image: url(Images/bulleJaune.svg);
+    background-size: cover;
+    align-items: center;
+    text-align: justify;
+    padding: 3.5rem;
+    /*   
+    text-align: center;*/ 
+
+}
+
+.tradition h3{
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.tradition p{
+    padding: 0.5rem;
+}
+
+.tradition-img{
+    align-items: center;
+    display: flex;
+    padding-left: 35%;
+}
+
+
+.tradition .p2{
+    padding-left: 2.7rem;
+}
+
+@media screen and (min-width: 1500px){
+    .content{
+        display : flex;
+    }
+}
+
+@media screen and (max-width: 1005px){
+    .content{
+        display : block;
+    }
+
+    .row{
+        width: 100%; 
+    }
+}
