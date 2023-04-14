@@ -188,23 +188,18 @@
 }
 
 .tradition{
-    width: 600px;
-    height: 400px;
+    width: 650px;
     padding: 20px;
     margin: auto auto;
     background-image: url(Images/bulleJaune.svg);
     background-size: cover;
     align-items: center;
     text-align: justify;
-    padding: 3.5rem;
-    /*   
-    text-align: center;*/ 
-
+    padding: 3rem;
 }
 
 .tradition h3{
     padding-top: 0.5rem;
-    text-align: center;
 }
 
 .tradition p{
@@ -228,7 +223,7 @@
     }
 }
 
-@media screen and (max-width: 1005px){
+@media screen and (max-width: 1300px){
     .content{
         display : block;
     }

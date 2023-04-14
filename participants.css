@@ -40,6 +40,14 @@ section h1{
     justify-content: space-between;
 }
 
+.row-benevole{
+    align-items: center;    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em, 1em;
+    text-align: center;
+}
+
 .column{
     width: 100%;
     padding: 0.5em 0.5em;
@@ -73,12 +81,13 @@ section h1{
 }
 
 .card h3{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .card p{
     font-weight: 300;
-    /*text-transform: uppercase;*/
+    font-size: 1.2em;
     margin: 0.5em 0 2em 0;
 }
 
@@ -109,9 +118,15 @@ section h1{
         max-width: 20.5%;
         padding: 0 0.1em;
     }
+
+    .row-benevole .column{
+        flex: 0 0 48%;
+        max-width: 48%;
+        padding: 0 0.1em;
+    }
 }
 
-.benevole p{
+section p{
     font-size: 1.5em;
 }
 

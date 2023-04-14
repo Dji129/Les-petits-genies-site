@@ -1,5 +1,4 @@
 .container{
-    /*height: 100vh;*/
     width: 100%;
     /*background-image: url(Images/Background2.jpg);*/
     background-position: center;
@@ -8,6 +7,10 @@
     padding-right: 2%;
     box-sizing: border-box;
     position: relative;
+}
+
+section p{
+    font-weight: 300;
 }
 
 /*Style pour les carte*/
@@ -26,9 +29,7 @@
     margin: 1em 0.2em;
 }
 
-
 .column p{
-    text-align: justify;
     padding-left: 2rem;
 }
 
@@ -68,7 +69,6 @@ h1{
 
 .card .description{
    text-align: left;
-   /*padding: 1em;*/
 }
 
 .card img{
@@ -83,8 +83,6 @@ h1{
 .card p{
     font-weight: 300;
     padding-right: 1rem;
-    /*text-transform: uppercase;
-    margin: 0.1em 0 2em 0;*/
 }
 
 .card:hover{
@@ -98,13 +96,13 @@ h1{
 
 @media screen and (min-width: 768px){
     section{
-        padding : 1em 7em;
+        padding : 1em 6em;
     }
 }
 
 @media screen and (min-width: 992px){
     section{
-        padding : 1em;
+        padding : 0.5em;
     }
     .card{
         padding: 1em 0.1em;
@@ -198,20 +196,7 @@ h1{
 
 /*Horaire*/
 .horaire img{
-    align-items: center;
-}
-/*
-.deroulement{
-    display : flex;
-}
-
-.deroulement-img{
-    height: 1%px;
-    width: 1%;
-    align-items: right;
-}*/
-
-.horaire img{
-    height: 500px;
+    height: 600px;
     width: calc(100%);
+    padding: auto;
 }
